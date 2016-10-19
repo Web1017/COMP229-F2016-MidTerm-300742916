@@ -13,9 +13,9 @@ namespace COMP229_F2016_MidTerm_300742916.Models
 
         [Required]
         [StringLength(50)]
-        public string TodoName { get; set; }
+        public string ToDoDescription { get; set; }
 
-        public string TodoNotes { get; set; }
+        public string ToDoNotes { get; set; }
 
         public bool Completed { get; set; }
     }
