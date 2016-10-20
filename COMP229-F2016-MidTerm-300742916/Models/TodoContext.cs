@@ -12,6 +12,7 @@ namespace COMP229_F2016_MidTerm_300742916.Models
         {
         }
 
+        public Todo Todo { get; internal set; }
         public virtual DbSet<Todo> Todos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
